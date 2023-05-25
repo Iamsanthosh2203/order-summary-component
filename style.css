@@ -1,0 +1,20 @@
+*{
+    font-family: "Red Hat Display";
+}
+
+body{
+    background-image:url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:#e0e8ff;
+}
+
+button:hover{
+    background-color: hsla(245, 75%, 52%, 0.5);
+    transition: all 250ms;
+}
+
+.link:hover{
+    color: hsla(245, 75%, 52%, 0.5);
+    transition: all 250ms;
+    text-decoration: none;
+}

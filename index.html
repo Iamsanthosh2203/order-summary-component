@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Summary Component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex h-screen p-6 py-4 md:p-0 justify-center items-center">
+      <main class="flex w-full md:w-[30%] flex-col rounded-xl bg-white">
+        <img
+          class="rounded-t-xl"
+          src="images/illustration-hero.svg"
+          alt=""
+          srcset=""
+        />
+
+        <div class="py-8 flex justify-center">
+          <div class="flex flex-col text-center gap-4 px-4 md:px-14">
+            <h1 class="font-bold text-2xl text-[#1f2f56]">Order Summary</h1>
+
+            <p class="text-[#7280a7]">
+              You can listen to millions of songs, audiobooks, and podcasts on
+              any device anywhere you like!
+            </p>
+
+            <div
+              class="p-4 flex rounded-xl justify-between items-center bg-[#e0e8ff]"
+            >
+              <div class="flex">
+                <img src="images/icon-music.svg" class="mr-2" alt="" />
+
+                <div class="flex flex-col items-start">
+                  <h2 class="font-bold text-base">Annual Plan</h2>
+                  <p class="text-[#7280a7] text-sm">$59.99/year</p>
+                </div>
+              </div>
+
+              <div>
+                <a
+                  href="http://"
+                  class="link text-sm font-bold text-[#3829e0] underline"
+                  >Change</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="p-2 font-bold text-white rounded-lg bg-[#3829e0] mx-4 md:mx-14 shadow-xl mb-6 text-sm"
+        >
+          Procced to Payment
+        </button>
+
+        <a
+          href="http://"
+          class="text-center text-sm text-[#7280a7] mb-6 font-bold hover:text-black duration-200"
+          >Cancel order</a
+        >
+      </main>
+    </div>
+  </body>
+</html>
